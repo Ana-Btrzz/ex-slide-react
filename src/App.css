@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  margin: 24px 0;
+}
+
+.slide-item,
+img {
+  width: auto;
+  height: 500px;
+  object-fit: cover;
+}
+
+@media (max-width: 750px) {
+  .slide-item {
+    width: auto;
+    height: 250px;
+  }
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    display: none;
+  }
+}
